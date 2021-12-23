@@ -1,0 +1,16 @@
+server:
+  port: 8080
+#spring
+spring:
+  application:
+    name: demo
+#elasticsearch
+elasticsearch:
+  schema: http
+  address: 192.168.0.2:9200,192.168.0.3:9200,192.168.0.4:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectionRequestTimeout: 5000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
+
